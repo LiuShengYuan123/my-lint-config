@@ -1,0 +1,15 @@
+{
+  "name": "commitlint-config-lsy",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "description": "commitlint by 鼠尾草",
+  "author": "鼠尾草 <13562817+liushengyuan123@user.noreply.gitee.com>",
+  "homepage": "暂定",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "dependencies": {
+    "commitlint-config-lsy": "file:"
+  }
+}

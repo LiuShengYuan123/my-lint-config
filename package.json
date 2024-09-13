@@ -1,0 +1,25 @@
+{
+  "name": "lint-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --open",
+    "docs:build": "vuepress build docs",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "@vuepress/plugin-search": "2.0.0-rc.42",
+    "@vuepress/theme-default": "2.0.0-rc.42",
+    "lerna": "^8.1.8",
+    "vue": "^3.5.4",
+    "vuepress": "2.0.0-rc.15"
+  },
+  "dependencies": {
+    "vuepress-plugin-search-pro": "2.0.0-rc.52"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "markdownlint-config-lsy",
+  "version": "0.0.0",
+  "main": "index.json",
+  "description": "markdownlint by 鼠尾草",
+  "keywords": [
+    "鼠尾草",
+    "markdown",
+    "lint"
+  ],
+  "author": "鼠尾草",
+  "homepage": "暂定",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "dependencies": {
+    "markdownlint-config-lsy": "file:"
+  }
+}

@@ -1,0 +1,16 @@
+import comp from "E:/BBBBBB印客学堂/前端工程化lint规范/lint-demo/docs/.vuepress/.temp/pages/cli/encode-fe-lint.html.vue"
+const data = JSON.parse("{\"path\":\"/cli/encode-fe-lint.html\",\"title\":\"encode-fe-lint\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"encode-fe-lint\",\"categories\":[\"脚手架规范\"],\"tags\":[\"脚手架规范\"],\"author\":{\"name\":\"澄怀\",\"link\":\"https://github.com/encode-studio-fe/fe-spec\"}},\"headers\":[{\"level\":2,\"title\":\"背景\",\"slug\":\"背景\",\"link\":\"#背景\",\"children\":[]},{\"level\":2,\"title\":\"CLI 使用\",\"slug\":\"cli-使用\",\"link\":\"#cli-使用\",\"children\":[{\"level\":3,\"title\":\"安装\",\"slug\":\"安装\",\"link\":\"#安装\",\"children\":[]},{\"level\":3,\"title\":\"使用\",\"slug\":\"使用\",\"link\":\"#使用\",\"children\":[]}]},{\"level\":2,\"title\":\"Node.js API 使用\",\"slug\":\"node-js-api-使用\",\"link\":\"#node-js-api-使用\",\"children\":[{\"level\":3,\"title\":\"安装\",\"slug\":\"安装-1\",\"link\":\"#安装-1\",\"children\":[]},{\"level\":3,\"title\":\"API\",\"slug\":\"api\",\"link\":\"#api\",\"children\":[]}]},{\"level\":2,\"title\":\"配置\",\"slug\":\"配置\",\"link\":\"#配置\",\"children\":[]}],\"git\":{},\"filePathRelative\":\"cli/encode-fe-lint.md\",\"excerpt\":\"\\n<p><code>encode-fe-lint</code> 是<a href=\\\"https://encode-studio-fe.github.io/fe-spec/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">印客学院 前端编码规范工程化</a>的配套 Lint 工具，可以为项目一键接入规约、一键扫描和修复规约问题，保障项目的编码规范和代码质量。</p>\\n<h2>背景</h2>\\n<p>我们引入了多个业界流行的 Linter 作为《阿里巴巴前端规约》的配套，并根据规约内容定制了规则包，它们包括：</p>\\n<table>\\n<thead>\\n<tr>\\n<th>规约</th>\\n<th>Lint 工具</th>\\n<th>npm 包</th>\\n</tr>\\n</thead>\\n<tbody>\\n<tr>\\n<td>JavaScript 编码规范 <br> TypeScript 编码规范 <br> Node 编码规范</td>\\n<td><a href=\\\"https://eslint.org/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">ESLint</a></td>\\n<td><a href=\\\"https://www.npmjs.com/package/encode-fe-eslint-config\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">encode-fe-eslint-config</a></td>\\n</tr>\\n<tr>\\n<td>CSS 编码规范</td>\\n<td><a href=\\\"https://stylelint.io/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">stylelint</a></td>\\n<td><a href=\\\"https://www.npmjs.com/package/encode-fe-stylelint-config\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">encode-fe-stylelint-config</a></td>\\n</tr>\\n<tr>\\n<td>Git 规范</td>\\n<td><a href=\\\"https://commitlint.js.org/#/\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">commitlint</a></td>\\n<td><a href=\\\"https://www.npmjs.com/package/encode-fe-commitlint-config\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">encode-fe-commitlint-config</a></td>\\n</tr>\\n<tr>\\n<td>文档规范</td>\\n<td><a href=\\\"https://github.com/DavidAnson/markdownlint\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">markdownlint</a></td>\\n<td><a href=\\\"https://www.npmjs.com/package/encode-fe-markdownlint-config\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">encode-fe-markdownlint-config</a></td>\\n</tr>\\n</tbody>\\n</table>\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
