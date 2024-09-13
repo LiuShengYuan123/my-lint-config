@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install ",
     "docs:dev": "vuepress dev docs --open",
-    "docs:build": "vuepress build docs",
-    "prepare": "husky"
+    "docs:build": "vuepress build docs"
   },
   "keywords": [],
   "author": "",

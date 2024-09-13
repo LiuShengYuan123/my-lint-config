@@ -1,6 +1,6 @@
 # `commitlint-config-lsy`
 
-> 印客学院 Git 规范
+> 重生之我想当前端大糕手-GitCommit规范篇
 
 支持配套的 [commitlint 配置](https://commitlint.js.org/#/concepts-shareable-config)，用于对 `git commit message` 进行校验。
 
@@ -15,7 +15,7 @@ npm i commitlint-config-lsy --save-dev
 
 ## 使用
 
-在 `commitlint.config.js` 中集成本包:
+创建并在 `commitlint.config.js` 中集成本包:
 
 ```javascript
 module.exports = {
@@ -33,10 +33,10 @@ module.exports = {
 npm install husky --save-dev
 ```
 
-然后执行添加`commit-msg`:
+然后执行添加`/husky/pre-commit`文件:
 
 ```bash
-npx husky add .husky/commit-msg 'npx commitlint --edit $1'
+npx husky add .husky/commit-msg
 ```
 
 更多信息可参考 [commitlint 文档](https://commitlint.js.org/#/guides-local-setup?id=install-husky)。

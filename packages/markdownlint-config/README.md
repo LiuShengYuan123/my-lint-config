@@ -1,6 +1,6 @@
 # `markdownlint-config-lsy`
 
-> 重生之我想当前端大糕手-文档规范篇
+> 重生之我想当前端大糕手-Markdown规范篇
 
 支持配套的 [markdownlint 可共享配置](https://www.npmjs.com/package/markdownlint#optionsconfig)。
 
