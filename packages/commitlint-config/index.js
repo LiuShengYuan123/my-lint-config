@@ -15,4 +15,5 @@ module.exports = {
       'type-enum': [2, 'always', ['feat', 'fix', 'docs', 'style', 'test', 'refactor', 'chore', 'revert']],
     },
   };
-  
+
+console.log('我执行了!!')
