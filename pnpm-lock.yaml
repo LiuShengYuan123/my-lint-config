@@ -5,9 +5,6 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  husky:
-    specifier: ^9.1.6
-    version: 9.1.6
   vuepress-plugin-search-pro:
     specifier: 2.0.0-rc.52
     version: 2.0.0-rc.52(vuepress@2.0.0-rc.15)
@@ -22,6 +19,9 @@ devDependencies:
   '@vuepress/theme-default':
     specifier: 2.0.0-rc.42
     version: 2.0.0-rc.42(markdown-it@14.1.0)(vuepress@2.0.0-rc.15)
+  husky:
+    specifier: ^8.0.3
+    version: 8.0.3
   lerna:
     specifier: ^8.1.8
     version: 8.1.8
@@ -3120,11 +3120,11 @@ packages:
     resolution: {integrity: sha512-/1/GPCpDUCCYwlERiYjxoczfP0zfvZMU/OWgQPMya9AbAE24vseigFdhAMObpc8Q4lc/kjutPfUddDYyAmejnA==}
     engines: {node: '>=18.18.0'}
 
-  /husky@9.1.6:
-    resolution: {integrity: sha512-sqbjZKK7kf44hfdE94EoX8MZNk0n7HeW37O4YrVGCF4wzgQjp+akPAkfUK5LZ6KuR/6sqeAVuXHji+RzQgOn5A==}
-    engines: {node: '>=18'}
+  /husky@8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
     hasBin: true
-    dev: false
+    dev: true
 
   /iconv-lite@0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
