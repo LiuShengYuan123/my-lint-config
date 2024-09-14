@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test":"node test.js",
     "init": "pnpm install",
     "prepare": "husky",
     "docs:dev": "vuepress dev docs --open",
