@@ -8,6 +8,11 @@
     "docs:dev": "vuepress dev docs --open",
     "docs:build": "vuepress build docs"
   },
+  "husky": {  
+    "hooks": {  
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"  
+    }  
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
